@@ -8,7 +8,7 @@
 
 				// text to send
 				$texte = "Hi there,<br /><br />";
-				$texte = $texte . "Message from < yoursitename >.<br />";
+				$texte = $texte . "Message from ScottHawley.com.<br />";
 				$texte = $texte . "The elements entered in the form are as follows :<br />";
 				$texte = $texte . "Name : $nom<br />";
 				$texte = $texte . "Phone number : $telephone<br />";
@@ -20,13 +20,13 @@
 				$texte = stripslashes($texte);
 
 				// Recipient and subject of the message
-				$destinataire = "contact@gmail.com"; // input your email here
-				$objet = "Message from your < site name >"; // input your domain name here
+				$destinataire = "booking@scotthawley.com"; // input your email here
+				$objet = "Message from ScottHawley.com"; // input your domain name here
 
 				// Headers
 	      $headers = array(
 	                      'Content-type' => 'text/html',
-	                      'From' => 'form@yourbandname.com', // input your email from here
+	                      'From' => 'form@scotthawley.com', // input your email from here
 	                      'X-Mailer' => 'PHP/' . phpversion()
 	                  );
 
