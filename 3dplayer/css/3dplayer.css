@@ -1,0 +1,45 @@
+#icon1{ width: 80px; padding: 0; }
+#icon2{ height: 90px; padding: 0; }
+#icon3{ width: 65px; padding: 0; }
+#icon4{ width: 75px; height: 45px; padding: 0; }
+#icon5{ width: 40px; padding: 0; }
+#icon6{ height: 80px; padding: 0; }
+
+body {
+        cursor: pointer;
+        font-family: Arial, Helvetica;
+        font-size: 15px;
+}
+
+
+#outer {
+	width: 99%; /*600px;*/
+/*	border:2px solid red; */
+	margin:0;
+	padding:0;
+}
+
+
+
+#playingfield {
+	width: 600px;
+        height: 400px;
+        margin: 0;
+        padding: 0;
+	position:relative;
+	border:2px solid black;
+        background-image: url("../images/background.png");*/
+	background-size: 600px 400px;
+    	background-repeat: no-repeat;	
+}
+
+
+.readout {
+}
+
+#playButton{
+    height:40px;
+    width:70px;
+    visibility:hidden;
+    font-size: 16px;
+}

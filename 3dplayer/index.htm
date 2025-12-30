@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Binaural Audio Player</title>
+	<meta charset="utf-8"/>
+	<link rel="SHORTCUT ICON" href="images/3dplayerimage.png" />
+	<meta property="og:url" content="https://www.scotthawley.com/3dplayer" />
+	<meta property="og:title" content="3D Audio Player" />
+	<meta property="og:description" content="A WebAudio music player incorporating HRTF technology."/>
+	<meta property="og:author" content="Scott Hawley"/>
+	<meta property="og:image" content="https://www.scotthawley.com/3dplayer/images/3dplayerimage.png"/>
+	<meta itemprop="image" content="https://www.scotthawley.com/3dplayer/images/3dplayerimage.png"/>
+	<meta property="og:image:width" content="446"/>
+	<meta property="og:image:height" content="437"/>
+	<meta keywords="singer songwriter webaudio hrtf surround spatial audio"/>
+
+
+
+	<link rel="stylesheet" href="css/3dplayer.css" type="text/css">
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.22/themes/ui-lightness/jquery-ui.css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+
+	<script type="text/javascript" src="jquery-simulate-ext/libs/jquery.simulate.js"></script>
+	<script type="text/javascript" src="jquery-simulate-ext/src/jquery.simulate.ext.js"></script>
+	<script type="text/javascript" src="jquery-simulate-ext/libs/bililiteRange.js"></script>
+	<script type="text/javascript" src="jquery-simulate-ext/src/jquery.simulate.key-sequence.js"></script>
+	<script type="text/javascript" src="jquery-simulate-ext/src/jquery.simulate.key-combo.js"></script>
+	<script type="text/javascript" src="jquery-simulate-ext/src/jquery.simulate.drag-n-drop.js"></script>
+	<script src="javascript/AudioPlayer.js" type="application/javascript"></script>
+	<script src="javascript/3dplayer.js" type="application/javascript"></script>
+</head>
+
+<body>
+
+<div id="outer">
+    <center>
+    <div id="inner">
+        <div id="playingfield" >
+            <img id="icon1"   src="images/drums.png" class="icon" alt="" title="" />
+            <img id="icon2"  src="images/bass.png" class="icon" alt="" title="" />
+            <img id="icon3"  src="images/guitar.png" class="icon" alt="" title="" />
+            <img id="icon4"  src="images/keys.png" class="icon" alt="" title="" />
+            <img id="icon5"  src="images/vox.png" class="icon" alt="" title="" />
+            <img id="icon6"  src="images/banjo.png" class="icon" alt="" title="" />
+        </div>
+		<center>Drag the icons around to move the sounds.  <b><i>Wear headphones.</i></b></center>
+        <div class="readout" id="start"  style="color:red;">***Loading Sounds Please Wait*** </div>
+        <div class="readout" id="stop">  </div>
+        <button id="playButton" >Play</button>
+    </div>
+    </center>
+</div>
+<br>
+<details> 
+<summary align="center">Details</summary> 
+<p align="center">Vocals &amp; ac. guitar: Scott Hawley, Drums: Matthew Burgess,<br>Bass: Chris Frasco, Keys: Greg Bieck, Dobro &amp;  Banjo: Rex Schnelle</p>
+
+<p class="small-text">Code modified from <a href="https://gamedevelopment.tutsplus.com/tutorials/web-audio-and-3d-soundscapes-implementation--cms-22651">this tutorial</a>. Icons by Egor Rumyantsev (ac gtr) and <a href="https://freepic.com">freepic.com</a> (others)</p>
+</details> 
+
+
+ 
+</body>
+</html>
