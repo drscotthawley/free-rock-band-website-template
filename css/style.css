@@ -834,4 +834,26 @@ button[name=backSite] {
 .ss-music .hardLight {
   margin: 40px auto 40px auto;
 }
+
+
+/*.photo-credit {
+  text-align: right;
+  width: 100%;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  padding: 3px 15px;
+  background-color: #1A1B1D;
+  margin-top: -5px;
+}*/
+.photo-credit {
+  position: absolute;
+  bottom: 1px;
+  right: 10px;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+
+
 /*# sourceMappingURL=style.css.map */
